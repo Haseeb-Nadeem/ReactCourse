@@ -1,5 +1,7 @@
 
+import { Fragment } from 'react';
 import './App.css';
+import Header from './componenrts/layout/Header';
 // import keyConceptsImage from './assets/images/key-concepts.png';
 // import componentsImage from './assets/images/components.png';
 // import stateImage from './assets/images/state.png';
@@ -26,6 +28,9 @@ const concepts = [
 ];
 function App() {
   return (
+
+    <Fragment>
+    <Header/>
     <div>
       <header>
         {/* <img src={keyConceptsImage} alt="Medal badge with a star" /> */}
@@ -40,6 +45,8 @@ function App() {
         </li>
       </ul>
     </div>
+    </Fragment>
+    
   );
 }
 
