@@ -14,7 +14,7 @@ body {
   color: #d9c9ee;
 }
 
-header {
+/* header {
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -22,7 +22,7 @@ header {
   align-items: center;
   margin-bottom: 3rem;
   text-align: center;
-}
+} */
 
 header img {
   width: 7rem;
